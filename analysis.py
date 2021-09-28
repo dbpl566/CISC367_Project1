@@ -27,10 +27,3 @@ def checkUrls(list):
 
 def getChatID(list):
     return[item[0] for item in list]
-
-    # for i in list[0:50]:
-    #     if any(url_substr in string for string in i):
-    #         #print(i)
-    #         url_count = url_count+1
-    #         print(url_count)
-    # print("Total: ", url_count)
