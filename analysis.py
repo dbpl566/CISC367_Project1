@@ -25,5 +25,3 @@ def checkUrls(list):
     print("Total: ", count)
     print(rows)
 
-def getChatID(list):
-    return[item[0] for item in list]
